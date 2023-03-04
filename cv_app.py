@@ -75,22 +75,24 @@ while True:
     else:
         break
 
-records = (
-    (3, '101', 'Spam'),
-    (7, '422', 'Eggs'),
-    (4, '631', 'Maximized applications’ efficiency, data quality, scope, operability, and flexibility. Build Automation Scripts (Python) and Data Scrapping Design Android Mobile apps (Java) and handle servicing. Developed app integration with REST / SOAP and other APIs for Google Maps, social media logins, payment processors, and other services. Build and Manage WordPress Themes and Plugins for website.')
-)
+#Tabular data coming soon
 
-table = document.add_table(rows=1, cols=3)
-hdr_cells = table.rows[0].cells
-hdr_cells[0].text = 'Qty'
-hdr_cells[1].text = 'Id'
-hdr_cells[2].text = 'Desc'
-for qty, id, desc in records:
-    row_cells = table.add_row().cells
-    row_cells[0].text = str(qty)
-    row_cells[1].text = id
-    row_cells[2].text = desc
+# records = (
+#     (1, '', ''),
+#     (2, '', ''),
+#     (3, '', '')
+# )
+
+# table = document.add_table(rows=1, cols=3)
+# hdr_cells = table.rows[0].cells
+# hdr_cells[0].text = 'Experience'
+# hdr_cells[1].text = 'Role'
+# hdr_cells[2].text = 'Date'
+# for qty, id, desc in records:
+#     row_cells = table.add_row().cells
+#     row_cells[0].text = str(qty)
+#     row_cells[1].text = id
+#     row_cells[2].text = desc
 
 # document.add_page_break()
 
