@@ -1,2 +1,2 @@
 # resume_python_docx
-A Resume document builder python - with text to speech, picture, tabular data and QRcode
+A Resume document builder created with python - text to speech, picture, tabular data and QRcode
